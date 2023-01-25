@@ -25,7 +25,9 @@ The build is minified and the filenames include the hashes.\
 
 ## Preview
 
-![preview (you should see a picture here).](./src/assets/pres/pc.png "This is preview of program in full hd size.")
+## [Click me](https://er1v3s.github.io/slider-swiper/) to see real time preview
+
+![preview (you should see a picture here](./src/assets/pres/pc.png "This is preview of program in full hd size.")
 ![preview (you should see a picture here).](./src/assets/pres/mobile.png "This is preview of program in mobile size.")
 
 ## Wanna use it in your project?
