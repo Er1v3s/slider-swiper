@@ -7,4 +7,4 @@ var e=document.querySelector("input"),t=document.body;e.addEventListener("click"
 },{}],"epB2":[function(require,module,exports) {
 "use strict";require("./js/Swiper"),require("./js/slider"),require("./js/theme");
 },{"./js/Swiper":"S87k","./js/slider":"wzuc","./js/theme":"qwQt"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.58af2816.js.map
+//# sourceMappingURL=main.58af2816.js.map
