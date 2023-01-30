@@ -1,3 +1,5 @@
+## Live preview - **https://er1v3s.github.io/slider-swiper**
+
 # Simple Vanilla JavaScript slider-swiper project
 
 **_Slider_** is created using functional methodology of creating applications
@@ -23,9 +25,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles files in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes.\
 
-## Preview
-
-## [Click me](https://er1v3s.github.io/slider-swiper/) to see real time preview
+## Gallery
 
 ![preview (you should see a picture here](./src/assets/pres/pc.png "This is preview of program in full hd size.")
 ![preview (you should see a picture here).](./src/assets/pres/mobile.png "This is preview of program in mobile size.")
