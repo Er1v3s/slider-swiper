@@ -18,6 +18,12 @@
   --XXS-height: 180px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 [data-theme="light"] {
   --bg-color: linear-gradient(90deg, #20bf55 0%, #01baef 100%);
 }
@@ -32,6 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -161,5 +168,6 @@ source {
 @media (max-width: 320px) {
   .frame {
     width: calc(100vw - 10px);
+    height: var(--XXS-height);
   }
 }
