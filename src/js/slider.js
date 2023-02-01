@@ -65,7 +65,7 @@ const goToLastSlide = () => {
   slider.style.transform = `translateX(-${(length - 1) * sliderWidth}px)`;
 };
 
-// handle the arrows click event
+// handle the arrows click and kaydown event
 
 arrowRight.addEventListener("click", () => {
   slide < length ? nextSlide() : goToFirstSlide();
@@ -75,6 +75,16 @@ arrowRight.addEventListener("click", () => {
 arrowLeft.addEventListener("click", () => {
   slide <= 1 ? goToLastSlide() : prevSlide();
   changeActiveCircle();
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowRight") {
+    slide < length ? nextSlide() : goToFirstSlide();
+    changeActiveCircle();
+  } else if (event.key === "ArrowLeft") {
+    slide <= 1 ? goToLastSlide() : prevSlide();
+    changeActiveCircle();
+  }
 });
 
 // fixes resizing window
