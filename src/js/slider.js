@@ -80,5 +80,7 @@ arrowLeft.addEventListener("click", () => {
 // fixes resizing window
 window.addEventListener("resize", () => {
   sliderWidth = slider.clientWidth;
-  slider.style.transform = `translateX(-${slide * sliderWidth}px)`;
+  slider.style.transform = `translateX(-${
+    slide * sliderWidth - sliderWidth
+  }px)`;
 });
