@@ -1,6 +1,6 @@
 :root {
   --XL-width: 1280px;
-  --XL-height: 1720px;
+  --XL-height: 720px;
 
   --L-width: 1024px;
   --L-height: 576px;
@@ -18,8 +18,16 @@
   --XXS-height: 180px;
 }
 
+[data-theme="light"] {
+  --bg-color: linear-gradient(90deg, #20bf55 0%, #01baef 100%);
+}
+
+[data-theme="dark"] {
+  --bg-color: linear-gradient(90deg, #12100e 0%, #2b4162 100%);
+}
+
 body {
-  background: linear-gradient(90deg, #20bf55 0%, #01baef 100%);
+  background: var(--bg-color);
   display: flex;
   justify-content: center;
   align-items: center;

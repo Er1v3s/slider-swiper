@@ -1,7 +1,13 @@
 // dark mode
 const themeBtn = document.querySelector("input");
-const bg = document.body;
+const body = document.body;
 
-themeBtn.addEventListener("click", () => {
-  bg.classList.toggle("dark-mode");
-});
+const handleDarkTheme = () => {
+  if (body.getAttribute("data-theme") === "light") {
+    body.setAttribute("data-theme", "dark");
+  } else {
+    body.setAttribute("data-theme", "light");
+  }
+};
+
+themeBtn.addEventListener("change", handleDarkTheme);

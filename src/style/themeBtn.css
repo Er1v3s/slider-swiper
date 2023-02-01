@@ -44,7 +44,3 @@ input:checked + .btn:before {
   transform: translateX(26px);
   background-color: rgb(238, 238, 238);
 }
-
-.dark-mode {
-  background: linear-gradient(90deg, #12100e 0%, #2b4162 100%);
-}
