@@ -81,6 +81,6 @@ arrowLeft.addEventListener("click", () => {
 window.addEventListener("resize", () => {
   sliderWidth = slider.clientWidth;
   slider.style.transform = `translateX(-${
-    slide * sliderWidth - sliderWidth
+    slide * sliderWidth - sliderWidth - (sliderWidth > 320 ? 0 : 10)
   }px)`;
 });

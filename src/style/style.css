@@ -157,3 +157,9 @@ source {
     height: var(--XXS-height);
   }
 }
+
+@media (max-width: 320px) {
+  .frame {
+    width: calc(100vw - 10px);
+  }
+}
