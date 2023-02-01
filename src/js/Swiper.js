@@ -86,9 +86,9 @@ class Swiper {
 
     if (diffX > 0) {
       if (this.initialX < this.positionX) {
-        this.slide < this.length ? this.nextSlide() : this.goToFirstSlide();
-      } else {
         this.slide <= 1 ? this.goToLastSlide() : this.prevSlide();
+      } else {
+        this.slide < this.length ? this.nextSlide() : this.goToFirstSlide();
       }
       this.changeActiveCircle();
     }
